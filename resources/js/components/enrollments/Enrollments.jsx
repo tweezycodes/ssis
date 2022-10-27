@@ -16,7 +16,7 @@ const Enrollments = () => {
 
     return(
         <div className="container mt-4">
-            <legend>Courses</legend>
+            <legend>Enrollments</legend>
             <div className="table-responsive">
                 <table className="table mt-4 table-hover">
                     <thead>
