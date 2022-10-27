@@ -137,7 +137,7 @@ const Index = () => {
                                 <button onClick={() => setNewStudent(false)} className="btn btn-sm btn-warning">Cancel</button>
                             </td>
                         </tr>
-                        <tr className={students.length > 0 || newStudent ? 'd-none' : ''}><td colSpan="5">No data to show.</td></tr>
+                        <tr className={students.length > 0 || newStudent ? 'd-none' : ''}><td colSpan="5" className="text-center">No data to show.</td></tr>
                         {
                             students.map((studentRow, index) => {
                                 return (
